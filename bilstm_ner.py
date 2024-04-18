@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 from sklearn.metrics import f1_score
 import matplotlib.pyplot as plt
-   
+    
 #extract train, dev, and test data
 train_data_path = 'train.conll'
 dev_data_path = 'dev.conll'
